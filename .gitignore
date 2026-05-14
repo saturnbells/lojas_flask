@@ -1,0 +1,56 @@
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+lojas.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask
+instance/
+.webassets-cache
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+# OS
+Thumbs.db
+# Logs
+*.log
+*.backup
+.env.local
+.env.production
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribuição
+dist/
+build/
+*.egg-info/
+# Arquivos de ambiente
+.env
+
+# Backup
+*.bak
+desktop.ini
+.DS_Store
