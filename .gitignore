@@ -30,27 +30,30 @@ instance/
 *.swo
 *~
 .DS_Store
+
 # OS
 Thumbs.db
-# Logs
+
+# logs
 *.log
 *.backup
 .env.local
 .env.production
 
-# Testes
+# testes
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Distribuição
+# distribuição
 dist/
 build/
 *.egg-info/
-# Arquivos de ambiente
+
+# arquivos de ambiente
 .env
 
-# Backup
+# backup
 *.bak
 desktop.ini
 .DS_Store
