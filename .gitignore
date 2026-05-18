@@ -39,6 +39,7 @@ Thumbs.db
 *.backup
 .env.local
 .env.production
+app.log
 
 # testes
 .pytest_cache/
