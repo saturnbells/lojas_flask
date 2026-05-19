@@ -15,13 +15,21 @@ venv/
 ENV/
 .venv
 .env
+.env.local
+.env.production
 pip-log.txt
 pip-delete-this-directory.txt
+.coverage
+htmlcov/
 
 # Flask
 instance/
 .webassets-cache
-.env.local
+
+# Logs
+*.log
+app.log
+logs/
 
 # IDE
 .vscode/
@@ -33,28 +41,20 @@ instance/
 
 # OS
 Thumbs.db
+desktop.ini
 
-# logs
-*.log
+# Backup
+*.bak
 *.backup
-.env.local
-.env.production
-app.log
 
-# testes
+# Docker
+.dockerignore  # O .dockerignore NÃO precisa estar no .gitignore!
+
+# Testes cache
 .pytest_cache/
-.coverage
-htmlcov/
+tests/__pycache__/
 
-# distribuição
+# Distribuição
 dist/
 build/
 *.egg-info/
-
-# arquivos de ambiente
-.env
-
-# backup
-*.bak
-desktop.ini
-.DS_Store
